@@ -1,0 +1,10 @@
+{
+  "generatedAt": null,
+  "mode": "demo",
+  "status": "ready",
+  "message": "Dataset demo attivo. Configura feed autorizzati in config/sources.json.",
+  "sourcesChecked": 0,
+  "sourcesSucceeded": 0,
+  "sourcesFailed": 0,
+  "items": []
+}

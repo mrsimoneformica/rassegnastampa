@@ -1,0 +1,24 @@
+{
+  "timezone": "Europe/Rome",
+  "dailyBriefHour": 6,
+  "nationalSources": [
+    { "name": "La Gazzetta dello Sport", "domain": "gazzetta.it", "feedUrl": "", "enabled": false },
+    { "name": "Corriere dello Sport", "domain": "corrieredellosport.it", "feedUrl": "", "enabled": false },
+    { "name": "Tuttosport", "domain": "tuttosport.com", "feedUrl": "", "enabled": false },
+    { "name": "Sky Sport Italia", "domain": "sport.sky.it", "feedUrl": "", "enabled": false },
+    { "name": "Sport Mediaset", "domain": "sportmediaset.mediaset.it", "feedUrl": "", "enabled": false }
+  ],
+  "lineups": {
+    "name": "Fantacalcio.it – Probabili Formazioni Serie A",
+    "pageUrl": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+    "adapter": "licensed-placeholder",
+    "enabled": false,
+    "note": "Abilitare solo con API, feed o autorizzazione del titolare. Non effettua scraping."
+  },
+  "localSources": {
+    "Atalanta": [], "Bologna": [], "Cagliari": [], "Como": [], "Cremonese": [],
+    "Fiorentina": [], "Genoa": [], "Inter": [], "Juventus": [], "Lazio": [],
+    "Lecce": [], "Milan": [], "Napoli": [], "Parma": [], "Pisa": [],
+    "Roma": [], "Sassuolo": [], "Torino": [], "Udinese": [], "Verona": []
+  }
+}
