@@ -27,7 +27,7 @@ Poi visita `http://localhost:8080`.
 ## Pubblicazione su GitHub Pages
 
 1. Crea un nuovo repository su GitHub.
-2. Carica nella radice del repository `index.html`, `style.css`, `app.js` e questo `README.md`.
+2. Carica nella radice del repository tutto il contenuto dello ZIP, incluse le cartelle `.github`, `config`, `data` e `scripts`.
 3. Apri **Settings → Pages**.
 4. In **Build and deployment**, scegli **Deploy from a branch**.
 5. Seleziona il branch `main`, cartella `/ (root)`, quindi salva.
@@ -40,8 +40,9 @@ I riferimenti agli asset sono relativi, quindi il sito funziona anche quando è 
 - navigazione SPA-like basata su hash;
 - dashboard Home e Morning Brief;
 - elenco dei 20 club e dossier club;
+- cinque testate nazionali e cinque fonti locali dichiarate per ogni club;
 - feed filtrabile per affidabilità, tema e intervallo temporale;
-- Match Intelligence, Injuries e Probable XI su campo grafico;
+- Match Intelligence, Injuries e pagina Probable XI con Fantacalcio.it dichiarato come fonte;
 - Players e Watchlist persistente tramite `localStorage`;
 - Sources, Archive e Source Consensus;
 - ricerca globale con scorciatoia `Cmd/Ctrl + K`;
@@ -67,6 +68,7 @@ serie-a-press-intelligence/
 ├── index.html
 ├── style.css
 ├── app.js
+├── club-sources.js
 ├── config/sources.json
 ├── data/latest.json
 ├── scripts/update-data.mjs
