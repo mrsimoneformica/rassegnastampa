@@ -42,6 +42,7 @@ I riferimenti agli asset sono relativi, quindi il sito funziona anche quando è 
 - elenco dei 20 club e dossier club;
 - cinque testate nazionali e cinque fonti locali dichiarate per ogni club;
 - feed filtrabile per affidabilità, tema e intervallo temporale;
+- Vista lettura e Vista compatta con preferenza salvata nel browser;
 - Match Intelligence, Injuries e pagina Probable XI con Fantacalcio.it dichiarato come fonte;
 - Players e Watchlist persistente tramite `localStorage`;
 - Sources, Archive e Source Consensus;
